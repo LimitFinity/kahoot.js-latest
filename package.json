@@ -1,0 +1,41 @@
+{
+  "name": "kahoot.js-latest",
+  "version": "1.0.6",
+  "description": "Answer, Join Kahoot Quizzes with nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/join_leave.js"
+  },
+  "keywords": [
+    "kahoot",
+    "js",
+    "quiz",
+    "game",
+    "updated",
+    "bot",
+    "answer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/LimitFinity/kahoot.js-latest.git"
+  },
+  "engines": {
+    "node": ">=10.9.0"
+  },
+  "author": "LimitFinity",
+  "license": "MIT",
+  "dependencies": {
+    "got": "^11.8.1",
+    "random-useragent": "^0.5.0",
+    "ws": "^7.4.2"
+  },
+  "bugs": {
+    "url": "https://github.com/LimitFinity/kahoot.js-latest/issues"
+  },
+  "devDependencies": {
+    "eslint": "^7.17.0"
+  },
+  "pkg": {
+    "scripts": "src/*/*.js"
+  }
+}
