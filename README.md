@@ -2,7 +2,7 @@
 Kahoot.js is a library to interact with the Kahoot API. kahoot.js supports joining and interacting with quizzes and challenges.
 **Installation requires Node.js 10.9.0 or higher.**
 
-![Dependencies](https://david-dm.org/theusaf/kahoot.js-updated.svg) ![HitCount](https://hits.dwyl.com/limitfinity/kahoot.js-updated.svg) [![Known Vulnerabilities](https://snyk.io/test/github/limitfinity/kahoot.js-latest/badge.svg?targetFile=package.json)](https://snyk.io/test/github/limitfinity/kahoot.js-latest?targetFile=package.json) ![Version](https://badge.fury.io/js/kahoot.js-latest.svg)
+![Dependencies](https://david-dm.org/theusaf/kahoot.js-updated.svg) [![HitCount](https://hits.dwyl.com/limitfinity/kahoot.js-updated.svg)](https://hits.dwyl.com/limitfinity/kahoot.js-updated) [![Known Vulnerabilities](https://snyk.io/test/github/limitfinity/kahoot.js-latest/badge.svg?targetFile=package.json)](https://snyk.io/test/github/limitfinity/kahoot.js-latest?targetFile=package.json) ![Version](https://badge.fury.io/js/kahoot.js-latest.svg)
 
 # Basic Example
 ```js
