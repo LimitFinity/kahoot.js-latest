@@ -2,14 +2,14 @@
 Kahoot.js is a library to interact with the Kahoot API. kahoot.js supports joining and interacting with quizzes and challenges.
 **Installation requires Node.js 10.9.0 or higher.**
 
-![Dependencies](https://david-dm.org/theusaf/kahoot.js-updated.svg) [![Known Vulnerabilities](https://snyk.io/test/github/theusaf/kahoot.js-updated/badge.svg)](https://snyk.io/test/github/theusaf/kahoot.js-updated) [![HitCount](https://hits.dwyl.com/theusaf/kahoot.js-updated.svg)](https://hits.dwyl.com/theusaf/kahoot.js-updated) ![Builds](https://travis-ci.com/theusaf/kahoot.js-updated.svg?branch=master) ![Docs](https://inch-ci.org/github/theusaf/kahoot.js-updated.svg?branch=master)
+![Dependencies](https://david-dm.org/theusaf/kahoot.js-updated.svg) ![HitCount](https://hits.dwyl.com/limitfinity/kahoot.js-updated.svg) [![Known Vulnerabilities](https://snyk.io/test/github/limitfinity/kahoot.js-latest/badge.svg?targetFile=package.json)](https://snyk.io/test/github/limitfinity/kahoot.js-latest?targetFile=package.json) ![Version](https://badge.fury.io/js/kahoot.js-latest.svg)
 
 # Basic Example
 ```js
 const Kahoot = require("kahoot.js-latest");
 const client = new Kahoot();
 console.log("Joining kahoot...");
-client.join(9802345 /* Or any other kahoot game pin */, "kahoot.js");
+client.join(9802345 /* Replace with kahoot game pin */, "kahoot.js");
 client.on("Joined", () => {
   console.log("I joined the Kahoot!");
 });
