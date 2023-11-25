@@ -41,7 +41,7 @@ module.exports = function(){
   this.on("QuizStart",(event)=>{
     Object.assign(event,{
       get questionCount(){
-        return event.quizQuestionAnswers.length;
+        return event.gameBlockCount;
       }
     });
     try{
