@@ -211,300 +211,6 @@
     
 
     
-    <h4 class="name" id=".defaults"><span class="type-signature">(static) </span>defaults<span class="signature">()</span><span class="type-signature"> &rarr; {class}</span></h4>
-    
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<dl class="details">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="kahoot.js.html">kahoot.js</a>, <a href="kahoot.js.html#line59">line 59</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<h5>Returns:</h5>
-
-        
-<div class="param-desc">
-    Returns a new Client constructor which uses new defaults
-</div>
-
-
-
-<dl>
-    <dt>
-        Type
-    </dt>
-    <dd>
-        
-<span class="param-type">class</span>
-
-
-    </dd>
-</dl>
-
-    
-
-
-
-
-
-        
-            
-
-    
-
-    
-    <h4 class="name" id=".join"><span class="type-signature">(static) </span>join<span class="signature">()</span><span class="type-signature"> &rarr; {Object}</span></h4>
-    
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <h5 class="subsection-title">Properties:</h5>
-
-    
-
-<table class="props">
-    <thead>
-    <tr>
-        
-        <th>Name</th>
-        
-
-        <th>Type</th>
-
-        
-
-        
-
-        <th class="last">Description</th>
-    </tr>
-    </thead>
-
-    <tbody>
-    
-
-        <tr>
-            
-                <td class="name"><code>client</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type"><a href="Client.html">Client</a></span>
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last">The newly created client joining the game</td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>event</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">Promise.&lt;<a href="LiveEventTimetrack.html">LiveEventTimetrack</a>></span>
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last">See <a href="Client.html#join">Client#join</a></td>
-        </tr>
-
-    
-    </tbody>
-</table>
-
-
-
-
-<dl class="details">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="kahoot.js.html">kahoot.js</a>, <a href="kahoot.js.html#line77">line 77</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-    <dt class="tag-see">See:</dt>
-    <dd class="tag-see">
-        <ul>
-            <li><a href="Client.html#join">Client#join</a></li>
-        </ul>
-    </dd>
-    
-
-    
-</dl>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<h5>Returns:</h5>
-
-        
-<div class="param-desc">
-    Returns the <a href="Client.html">Client</a> instead of a Promise.
-</div>
-
-
-
-<dl>
-    <dt>
-        Type
-    </dt>
-    <dd>
-        
-<span class="param-type">Object</span>
-
-
-    </dd>
-</dl>
-
-    
-
-
-
-
-
-        
-            
-
-    
-
-    
     <h4 class="name" id="answer"><span class="type-signature"></span>answer<span class="signature">(choice)</span><span class="type-signature"> &rarr; {Promise.&lt;<a href="LiveEventTimetrack.html">LiveEventTimetrack</a>>}</span></h4>
     
 
@@ -571,11 +277,7 @@
 
             
 
-            <td class="description last">The answer to the question
-- defaults:
-- 1 answer, number: 0
-- multi answer: [0,1,2,3]
-- "undefined"</td>
+            <td class="description last">The answer to the question- defaults:- 1 answer, number: 0- multi answer: [0,1,2,3]- "undefined"</td>
         </tr>
 
     
@@ -971,8 +673,7 @@
                 </td>
             
 
-            <td class="description last">The team member names.
-if false, the team members will not be added automatically.</td>
+            <td class="description last">The team member names.if false, the team members will not be added automatically.</td>
         </tr>
 
     
@@ -1042,9 +743,7 @@ if false, the team members will not be added automatically.</td>
 
         
 <div class="param-desc">
-    Resolves when join + team (if applicable) succeeds
-The resolved object should contain information about twoFactor, namerator, and gameMode
-If joining fails, this will reject with the error
+    Resolves when join + team (if applicable) succeedsThe resolved object should contain information about twoFactor, namerator, and gameModeIf joining fails, this will reject with the error
 </div>
 
 
@@ -1194,7 +893,7 @@ If joining fails, this will reject with the error
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="kahoot.js.html">kahoot.js</a>, <a href="kahoot.js.html#line224">line 224</a>
+        <a href="kahoot.js.html">kahoot.js</a>, <a href="kahoot.js.html#line235">line 235</a>
     </li></ul></dd>
     
 
@@ -1304,7 +1003,7 @@ If joining fails, this will reject with the error
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="kahoot.js.html">kahoot.js</a>, <a href="kahoot.js.html#line252">line 252</a>
+        <a href="kahoot.js.html">kahoot.js</a>, <a href="kahoot.js.html#line263">line 263</a>
     </li></ul></dd>
     
 
@@ -1392,7 +1091,7 @@ If joining fails, this will reject with the error
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="util_ChallengeHandler.js.html">util/ChallengeHandler.js</a>, <a href="util_ChallengeHandler.js.html#line328">line 328</a>
+        <a href="util_ChallengeHandler.js.html">util/ChallengeHandler.js</a>, <a href="util_ChallengeHandler.js.html#line331">line 331</a>
     </li></ul></dd>
     
 
@@ -1839,6 +1538,300 @@ If joining fails, this will reject with the error
 
 
         
+            
+
+    
+
+    
+    <h4 class="name" id=".defaults"><span class="type-signature">(static) </span>defaults<span class="signature">()</span><span class="type-signature"> &rarr; {class}</span></h4>
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="kahoot.js.html">kahoot.js</a>, <a href="kahoot.js.html#line59">line 59</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    Returns a new Client constructor which uses new defaults
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">class</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+
+
+        
+            
+
+    
+
+    
+    <h4 class="name" id=".join"><span class="type-signature">(static) </span>join<span class="signature">()</span><span class="type-signature"> &rarr; {Object}</span></h4>
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+
+<table class="props">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>client</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="Client.html">Client</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">The newly created client joining the game</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>event</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Promise.&lt;<a href="LiveEventTimetrack.html">LiveEventTimetrack</a>></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">See <a href="Client.html#join">Client#join</a></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="kahoot.js.html">kahoot.js</a>, <a href="kahoot.js.html#line77">line 77</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-see">See:</dt>
+    <dd class="tag-see">
+        <ul>
+            <li><a href="Client.html#join">Client#join</a></li>
+        </ul>
+    </dd>
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    Returns the <a href="Client.html">Client</a> instead of a Promise.
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Object</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+
+
+        
     
 
     
@@ -1914,7 +1907,7 @@ If joining fails, this will reject with the error
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="kahoot.js.html">kahoot.js</a>, <a href="kahoot.js.html#line286">line 286</a>
+        <a href="kahoot.js.html">kahoot.js</a>, <a href="kahoot.js.html#line297">line 297</a>
     </li></ul></dd>
     
 
@@ -2420,7 +2413,7 @@ If joining fails, this will reject with the error
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="kahoot.js.html">kahoot.js</a>, <a href="kahoot.js.html#line184">line 184</a>
+        <a href="kahoot.js.html">kahoot.js</a>, <a href="kahoot.js.html#line195">line 195</a>
     </li></ul></dd>
     
 
@@ -2952,7 +2945,7 @@ If joining fails, this will reject with the error
 
             
 
-            <td class="description last">The text content of correct answers</td>
+            <td class="description last">The text content of answers sent by the client</td>
         </tr>
 
     
@@ -3022,29 +3015,6 @@ If joining fails, this will reject with the error
             
 
             <td class="description last">The amount of points earned from the question</td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>correctAnswers</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">Array.&lt;String></span>
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last">A list of the text content of the correct answers</td>
         </tr>
 
     
@@ -4371,8 +4341,7 @@ If joining fails, this will reject with the error
 
 
 <div class="description">
-    Emitted when the server sends its recovery data.
-This event is mostly for debugging.
+    Emitted when the server sends its recovery data.This event is mostly for debugging.
 </div>
 
 
@@ -5076,7 +5045,7 @@ This event is mostly for debugging.
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="modules_main.js.html">modules/main.js</a>, <a href="modules_main.js.html#line117">line 117</a>
+        <a href="modules_main.js.html">modules/main.js</a>, <a href="modules_main.js.html#line119">line 119</a>
     </li></ul></dd>
     
 
@@ -5164,7 +5133,7 @@ This event is mostly for debugging.
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="modules_main.js.html">modules/main.js</a>, <a href="modules_main.js.html#line100">line 100</a>
+        <a href="modules_main.js.html">modules/main.js</a>, <a href="modules_main.js.html#line102">line 102</a>
     </li></ul></dd>
     
 
@@ -5252,7 +5221,7 @@ This event is mostly for debugging.
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="modules_main.js.html">modules/main.js</a>, <a href="modules_main.js.html#line109">line 109</a>
+        <a href="modules_main.js.html">modules/main.js</a>, <a href="modules_main.js.html#line111">line 111</a>
     </li></ul></dd>
     
 
@@ -5300,7 +5269,7 @@ This event is mostly for debugging.
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.5</a> on Sun Oct 11 2020 19:45:43 GMT-0700 (Pacific Daylight Time)
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 4.0.5</a> on Sun Feb 08 2026 22:58:10 GMT+1100 (Australian Eastern Daylight Time)
 </footer>
 
 <script> prettyPrint(); </script>

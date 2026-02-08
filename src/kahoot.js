@@ -149,6 +149,16 @@ class Client extends EventEmitter{
             }
           }else{
             this.cid = message.data.cid;
+            if(!settings.isChallenge && this.classes.LiveNameratorPacket){
+              const usingNamerator = !!settings.namerator;
+              try{
+                await this._send(new this.classes.LiveNameratorPacket(this, usingNamerator));
+                await sleep(0.05);
+                await this._send(new this.classes.LiveNameratorPacket(this, usingNamerator));
+              }catch(e){
+                // Ignore namerator send failures; join should still proceed.
+              }
+            }
             if(settings.gameMode === "team"){
               await sleep(1);
               if(team !== false){

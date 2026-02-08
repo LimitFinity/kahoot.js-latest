@@ -3,6 +3,7 @@ const LiveJoinPacket = require("../assets/LiveJoinPacket.js");
 const LiveJoinTeamPacket = require("../assets/LiveJoinTeamPacket.js");
 const LiveTwoStepAnswer = require("../assets/LiveTwoStepAnswer.js");
 const LiveLeavePacket = require("../assets/LiveLeavePacket.js");
+const LiveNameratorPacket = require("../assets/LiveNameratorPacket.js");
 /**
  * @fileinfo This is the main module
  * - Always enabled
@@ -15,6 +16,7 @@ module.exports = function(){
   this.classes.LiveClientHandshake = LiveClientHandshake;
   this.classes.LiveJoinTeamPacket = LiveJoinTeamPacket;
   this.classes.LiveLeavePacket = LiveLeavePacket;
+  this.classes.LiveNameratorPacket = LiveNameratorPacket;
 
   /**
    * HandshakeChecker - Handles the handshake to Kahoot!

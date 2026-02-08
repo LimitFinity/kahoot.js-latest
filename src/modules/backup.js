@@ -79,5 +79,7 @@ module.exports = function(){
       }
     });
   }
-  this.once("NameAccept",this.requestRecoveryData);
+  // Don't request recovery data on NameAccept - it conflicts with the new v2 protocol
+  // The server will provide recovery data if needed in the quizStart event
+  // this.once("NameAccept",this.requestRecoveryData);
 };
