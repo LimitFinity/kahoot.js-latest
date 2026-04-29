@@ -1,8 +1,6 @@
 var Kahoot = require("../index.js");
 var client = new Kahoot;
 const PIN = require("./PIN.json");
-const fs = require("fs");
-const sleep = require("../src/util/sleep.js");
 console.log("joining game...");
 client.join(PIN, "kahoot.js",["a","b","c","d"]).then(a=>{
   console.log(a);

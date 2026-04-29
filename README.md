@@ -2,7 +2,9 @@
 Kahoot.js is a library to interact with the Kahoot API. kahoot.js supports joining and interacting with quizzes and challenges.
 **Installation requires Node.js 10.9.0 or higher.**
 
-[![HitCount](https://hits.dwyl.com/limitfinity/kahoot.js-updated.svg)](https://hits.dwyl.com/limitfinity/kahoot.js-updated) [![Known Vulnerabilities](https://snyk.io/test/github/limitfinity/kahoot.js-latest/badge.svg?targetFile=package.json)](https://snyk.io/test/github/limitfinity/kahoot.js-latest?targetFile=package.json) ![Version](https://badge.fury.io/js/kahoot.js-latest.svg)
+![NPM](https://nodei.co/npm/kahoot.js-latest.png)
+
+[![HitCount](https://hits.dwyl.com/limitfinity/kahoot.js-latest.svg)](https://hits.dwyl.com/limitfinity/kahoot.js-latest) [![Known Vulnerabilities](https://snyk.io/test/github/limitfinity/kahoot.js-latest/badge.svg?targetFile=package.json)](https://snyk.io/test/github/limitfinity/kahoot.js-latest?targetFile=package.json) ![Version](https://badge.fury.io/js/kahoot.js-latest.svg)
 
 # Basic Example
 ```js
@@ -26,7 +28,7 @@ client.on("QuizEnd", () => {
 ```
 
 ## Full API Documentation
-See [Documentation.md](Documentation.md).
+See [Documentation.md](Documentation.md). Or visit the [JSDoc](https://limitfinity.github.io/kahoot.js-latest)umentation.
 
 ## Examples
-See `examples/` and `tests/`.
+See `tests/`.

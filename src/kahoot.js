@@ -419,14 +419,14 @@ Client.prototype._defaults = {
     answer: true
   },
   /**
-   * A function to proxy kahoot.js-updated's http requests
+   * A function to proxy kahoot.js-latests's http requests
    * @function Client#defaults.proxy
    * @param {Object} options The default [HTTP Request]{@link https://nodejs.org/api/http.html#http_http_request_options_callback} options used by Kahoot.js
    * @returns {Object} The modified [HTTP Request]{@link https://nodejs.org/api/http.html#http_http_request_options_callback} options to proxy the request.
    */
   proxy: (options)=>{}, // Take in [HTTP Request]{@link https://nodejs.org/api/http.html#http_http_request_options_callback}, return and modify new options for the request for the proxied request. You may also return a ClientRequest as well. See Documentation.md
   /**
-   * A function to proxy kahoot.js-updated's websocket requests
+   * A function to proxy kahoot.js-latests's websocket requests
    * @function Client#defaults.wsproxy
    * @param {String} url The default websocket URI that Kahoot.JS sends the socket to.
    * @returns {Client#defaults.wsproxy.WsProxyReturn} [WS Options]{@link https://github.com/websockets/ws/blob/HEAD/doc/ws.md#new-websocketaddress-protocols-options} used to create the proxied socket. You may also return a WebSocket itself. See Documentation.md
